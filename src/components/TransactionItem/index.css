@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.transaction {
+  display: flex;
+  width: 33vw;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d7dfe9;
+  border-top: none;
+  height: 35px;
+}
+.p {
+  max-width: 10vw;
+  padding-left: 20px;
+}
+button {
+  justify-self: flex-start;
+  background-color: transparent;
+  border: none;
+}

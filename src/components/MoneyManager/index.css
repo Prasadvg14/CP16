@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 80vw;
+  height: 25vh;
+  padding: 20px;
+}
+.ul {
+  width: 80vw;
+  height: 20vh;
+  padding-left: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  padding: 30px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 30vh;
+}
+
+input {
+  height: 25px;
+  width: 15vw;
+  border: 1px solid #d7dfe9;
+  padding: 10px;
+}
+select {
+  height: 25px;
+  width: 15vw;
+  border: 1px solid #d7dfe9;
+  font-style: 15px;
+  padding: 5px;
+}
+
+label {
+  color: #7e858e;
+  font-size: 12px;
+}
+
+.addBtn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffff;
+  height: 30px;
+  width: 70px;
+  border: none;
+}
+
+.right {
+  padding: 30px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+.titles {
+  display: flex;
+  width: 33vw;
+
+  align-items: center;
+  border: 1px solid #d7dfe9;
+  height: 35px;
+}
+.t {
+  padding-left: 20px;
+  width: 9vw;
+}

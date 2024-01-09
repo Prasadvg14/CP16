@@ -1,0 +1,34 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25vw;
+  height: 15vh;
+  background-size: cover;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+img {
+  height: 50%;
+  width: 20%;
+}
+
+.Balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.Income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.Expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.amt {
+  font-size: 15px;
+  font-weight: 500;
+}
